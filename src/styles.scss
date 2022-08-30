@@ -4,7 +4,12 @@
 @import '~bootstrap/scss/bootstrap';
 
 
+html{
+    height: 100vh;
+}
+
 body{
-    background: linear-gradient(90deg, gray, black);
+    background: linear-gradient(90deg, rgb(26, 26, 26), black);
+    background-repeat: no-repeat;
     color: white;
 }
